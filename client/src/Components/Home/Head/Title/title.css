@@ -1,0 +1,15 @@
+.Title {
+  color: #00796b; /* Green color */
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+  background-color: #e0f2f1; /* Light green background color */
+}
+h5 {
+  display: inline; /* Make h5 element inline with the text */
+  color: #ffeb3b; /* Yellow color */
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+}

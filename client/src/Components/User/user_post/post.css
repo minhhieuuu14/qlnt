@@ -1,0 +1,55 @@
+/* post.css */
+
+.table-container {
+  margin-top: 20px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+/* post.css */
+.user-table {
+  /* Thêm CSS cho bảng nếu cần */
+}
+
+.function-cell {
+  color: red; /* Màu chữ là đỏ */
+}
+
+.detail-link {
+  color: white; /* Màu chữ là xanh */
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  font-size: 19px;
+  margin: 0 auto;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+  background-color: #ccc;
+}
+
+.user-table button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-table button:hover {
+  background-color: #0056b3;
+}

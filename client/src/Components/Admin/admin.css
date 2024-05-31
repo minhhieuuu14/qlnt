@@ -1,0 +1,44 @@
+.button-row {
+  display: flex;
+  justify-content: space-between; /* Canh chỉnh các button để chúng nằm đều trên cùng một hàng */
+  align-items: center; /* Canh chỉnh các button theo trục dọc */
+  margin: 20px 0; /* Margin top và bottom là 20px */
+}
+
+.admin-button,
+.user-button,
+.post-button,
+.payment-button {
+  padding: 10px 20px; /* Padding của button */
+  font-size: 16px; /* Kích thước chữ */
+  border: none; /* Loại bỏ border */
+  border-radius: 5px; /* Bo góc của button */
+  cursor: pointer; /* Hiển thị con trỏ khi di chuột qua button */
+  width: 150px; /* Độ rộng của button */
+  text-align: center; /* Căn giữa văn bản */
+  background-color: #ccc; /* Màu nền mặc định cho tất cả các button */
+  color: black; /* Màu chữ mặc định cho tất cả các button */
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+  margin: 10px;
+}
+
+.active {
+  background: linear-gradient(
+    to right,
+    #16c784,
+    #16c784
+  ); /* Màu nền khi button được click */
+  color: white;
+}
+.red-bg {
+  background-color: red;
+}
+.admin-button:hover,
+.user-button:hover,
+.post-button:hover,
+.payment-button:hover {
+  color: white;
+  background-color: black;
+}

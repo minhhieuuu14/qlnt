@@ -1,0 +1,33 @@
+.table-container {
+  font-family: Arial, sans-serif;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  font-size: 18px;
+}
+td {
+  font-size: 16px;
+}
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+  background-color: #dddddd;
+}

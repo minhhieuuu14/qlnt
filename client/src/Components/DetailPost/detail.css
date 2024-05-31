@@ -1,0 +1,51 @@
+.left-part {
+  flex: 3;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-part {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+li {
+  list-style: none;
+  margin-left: 15px;
+}
+.des {
+  border: 1px solid #febb02;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #febb02;
+  margin: 20px;
+  height: 350px;
+  text-align: center;
+  align-items: center;
+}
+.des img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+.Slogan {
+  margin-top: 50px;
+}
+.des button {
+  margin: 20px auto;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: #16c784;
+  border-color: #16c784;
+  background: linear-gradient(to right, #16c784, #16c784);
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  display: block;
+}
+.des .talk {
+  background-color: linear-gradient(to right, #fff, #fff);
+  font-size: 25px;
+}

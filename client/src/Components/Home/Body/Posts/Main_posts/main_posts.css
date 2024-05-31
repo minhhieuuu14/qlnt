@@ -1,0 +1,123 @@
+span {
+  margin: 5px;
+}
+.sort span {
+  background-color: #e0e0e0; /* Màu nền cho các thẻ h4 */
+  padding: 10px 10px; /* Tạo khoảng trống giữa nội dung và viền của thẻ */
+  margin-right: 10px; /* Khoảng cách giữa các thẻ h4 */
+  border-radius: 5px; /* Bo tròn góc của thẻ */
+  align-items: center;
+  text-align: center;
+}
+.sort {
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+}
+.sort span:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+/* CSS */
+
+.price,
+.area,
+.location {
+  position: relative; /* Tạo ngữ cảnh cho pseudo-element */
+  padding: 0 10px; /* Tùy chỉnh khoảng cách giữa các phần tử */
+}
+
+/* Đảm bảo phần tử "price" không có đường border bên phải */
+.price::after {
+  display: none;
+}
+
+p {
+  margin-top: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container_form {
+  margin: 30px;
+  background-color: #e0e0e0;
+}
+.container-posts {
+  display: flex;
+}
+
+.left-part {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-part {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  font-size: 23px;
+  color: black;
+  font-weight: 700;
+}
+
+.pagination li:hover {
+  background-color: #e13427;
+  color: white;
+}
+.separator {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #666;
+}
+#scroll-top-btn {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  font-size: 30px;
+  background-color: #f83859;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  width: 70px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#scroll-top-btn:hover {
+  background-color: #555;
+}
+/* CSS */
+.price,
+.area {
+  border-right: 2px solid red; /* Thêm border bên phải */
+  padding-right: 10px; /* Tăng khoảng cách giữa nội dung và border */
+}

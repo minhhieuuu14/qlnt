@@ -1,0 +1,171 @@
+/* Table.css */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+/* Post.module.scss */
+.post {
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+.update-button {
+  display: inline-block;
+  width: 300px;
+  padding: 5px;
+  margin: 20px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.post h2 {
+  color: rgb(225, 52, 39);
+  text-align: left;
+  margin-left: 10px;
+}
+
+.post p {
+  color: #666;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.function-cell {
+  color: red; /* Màu chữ là đỏ */
+}
+
+.detail-link {
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  font-size: 19px;
+}
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+tr:hover {
+  background-color: #ddd;
+}
+.table th {
+  background-color: #f2f2f2;
+  font-size: 18px;
+}
+td {
+  font-size: 18px;
+}
+/* Table.css */
+
+h1 {
+  display: flex;
+  text-align: center;
+  border-bottom: 5px solid red;
+  padding-bottom: 10px; /* Tăng khoảng cách giữa border và nội dung của h1 */
+  margin: 30px auto;
+  justify-content: center;
+  width: 550px;
+}
+.update-button {
+  background-color: #4caf50; /* Màu nền xanh lá cây */
+  color: white; /* Màu chữ trắng */
+  padding: 8px 16px; /* Kích thước lề nút */
+  border: none; /* Xóa viền */
+  border-radius: 4px; /* Bo tròn góc */
+  text-align: center; /* Căn giữa nội dung */
+  text-decoration: none; /* Xóa gạch chân */
+  display: inline-block; /* Hiển thị theo dòng */
+  font-size: 16px; /* Kích thước chữ */
+  cursor: pointer; /* Bảng chuột */
+}
+
+.update-button:hover {
+  background-color: #45a049; /* Màu nền xanh lá cây tối khi hover */
+}
+/* info.css */
+
+.update-form {
+  background-color: #f9f9f9; /* Màu nền cho form cập nhật */
+  padding: 20px; /* Khoảng cách giữa các phần tử trong form */
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.update-form input {
+  margin-bottom: 10px; /* Khoảng cách giữa các input */
+}
+
+.update-form button {
+  background-color: #4caf50; /* Màu nền xanh lá cây */
+  color: white; /* Màu chữ trắng */
+  padding: 8px 16px; /* Kích thước lề nút */
+  border: none; /* Xóa viền */
+  border-radius: 4px; /* Bo tròn góc */
+  text-align: center; /* Căn giữa nội dung */
+  text-decoration: none; /* Xóa gạch chân */
+  display: inline-block; /* Hiển thị theo dòng */
+  font-size: 16px; /* Kích thước chữ */
+  cursor: pointer; /* Bảng chuột */
+  margin-right: 10px; /* Khoảng cách giữa các nút */
+}
+
+.update-form button:hover {
+  background-color: #45a049; /* Màu nền xanh lá cây tối khi hover */
+}
+/* info.css */
+
+.edit-form {
+  background-color: #f9f9f9; /* Màu nền cho form chỉnh sửa */
+  padding: 20px; /* Khoảng cách giữa các phần tử trong form */
+  margin-top: 20px; /* Khoảng cách giữa bảng và form */
+  border-radius: 8px; /* Bo tròn góc của form */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.edit-form h2 {
+  text-align: center; /* Căn giữa tiêu đề */
+  margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và input */
+  font-weight: 500;
+  color: blue;
+}
+
+.edit-form input {
+  margin-bottom: 10px; /* Khoảng cách giữa các input */
+  padding: 8px; /* Kích thước lề của input */
+  border-radius: 4px; /* Bo tròn góc của input */
+  border: 1px solid #ccc; /* Viền của input */
+  font-size: 22px;
+  margin: 10px auto;
+  width: 800px;
+}
+
+.edit-form button {
+  background-color: #4caf50; /* Màu nền xanh lá cây */
+  color: white; /* Màu chữ trắng */
+  padding: 10px 20px; /* Kích thước lề của nút */
+  border: none; /* Xóa viền */
+  border-radius: 4px; /* Bo tròn góc */
+  text-align: center; /* Căn giữa nội dung của nút */
+  text-decoration: none; /* Xóa gạch chân */
+  font-size: 16px; /* Kích thước chữ */
+  cursor: pointer; /* Bảng chuột */
+  margin-right: 10px; /* Khoảng cách giữa các nút */
+  margin: 20px auto;
+  text-align: center;
+  width: 300px;
+}
+
+.edit-form button:hover {
+  background-color: #45a049; /* Màu nền xanh lá cây tối khi hover */
+}
+
+/* info.css */

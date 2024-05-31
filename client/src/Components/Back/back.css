@@ -1,0 +1,9 @@
+.back {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #f83859;
+  margin: 30px;
+  color: white;
+}

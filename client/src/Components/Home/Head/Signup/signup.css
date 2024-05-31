@@ -1,0 +1,80 @@
+/* src/components/RegistrationForm.css */
+.registration-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* signup.css */
+.error {
+  color: red;
+  font-size: 15px;
+}
+
+.error-input {
+  border-color: red;
+}
+/* signup.css */
+.login-links {
+  margin-top: 10px;
+}
+
+.login-links a {
+  text-decoration: none;
+  color: #007bff; /* Màu chữ mặc định */
+  font-size: 20px;
+}
+.button-group {
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.button-group button {
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  margin: 0px auto;
+  padding: 5px;
+}
+.login-links a:hover {
+  text-decoration: underline; /* Gạch chân khi di chuột qua */
+}
+
+.login-links span {
+  margin: 0 5px; /* Khoảng cách giữa các phần tử */
+}

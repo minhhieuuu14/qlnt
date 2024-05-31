@@ -1,0 +1,36 @@
+/* home.css */
+.Head {
+  font-family: Arial, sans-serif; /* Use a generic font family */
+}
+
+/* Style for the container of Login and CreatePost */
+.login_create {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the end (right side) */
+  margin-top: 10px; /* Adjust margin as needed */
+  padding: 5px;
+  margin-right: 15px;
+  font-size: 18px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.login_create :hover {
+  cursor: pointer;
+}
+
+/* Style for the Login component */
+.Login {
+  margin-left: 10px; /* Adjust margin as needed */
+  padding: 8px 12px; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Light gray background */
+  color: #000; /* Black text color */
+}
+
+/* Style for the CreatePost component */
+.CreatePost {
+  margin-left: 10px; /* Adjust margin as needed */
+  padding: 8px 12px; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Light gray background */
+  color: #000; /* Black text color */
+}

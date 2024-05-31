@@ -1,0 +1,25 @@
+.left {
+  flex: 2; /* Phần bên trái chiếm 2 phần */
+  background-color: #f0f0f0; /* Màu nền cho phần bên trái */
+}
+
+.right {
+  flex: 1; /* Phần bên phải chiếm 1 phần */
+  background-color: #e0e0e0; /* Màu nền cho phần bên phải */
+}
+.left-post {
+  flex: 1; /* Phần bên trái chiếm 2 phần */
+  background-color: #f0f0f0; /* Màu nền cho phần bên trái */
+  padding: 20px;
+}
+
+.right-post {
+  flex: 2; /* Phần bên phải chiếm 1 phần */
+  background-color: #e0e0e0; /* Màu nền cho phần bên phải */
+  padding: 20px;
+}
+.container {
+  width: 100%;
+  padding: 0;
+  display: block;
+}
